@@ -2,3 +2,7 @@
   <h1>{{quotes.length}} Quotes</h1>
   <app-quote *ngFor="let item of quotes" [quote]="item" (deleteQuote)="deleteQuoteById($event)"></app-quote>
 </div>
+
+<div *ngIf="quotes?.length == 0">
+  <h1>No Quotes. Refresh to get a new batch.</h1>
+</div>
