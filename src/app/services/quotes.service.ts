@@ -14,7 +14,7 @@ export class QuotesService {
   getQuotes(): Observable<Quote[]> {
     return this.http
       .get<Quote[]>(
-        'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=10'
+        'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=10'
       )
       .pipe(map(response => response));
   }
