@@ -1,6 +1,6 @@
 # QuotesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+This app is a basic app that demonstrates Parent Child Component relationships and is part of the High Country Angular August 2018 Meetup presenation.
 
 ## Development server
 
